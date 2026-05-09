@@ -68,7 +68,7 @@ function getURLParam(name) {
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
-    text = `To the love of my life:\n\nThank you for coming into my life. Seriously, I appreciate every second you spend with me. You make me feel so, so happy that whenever I talk, think about you, or play with you, I smile foolishly, or as I say, silly, hahaha. I truly appreciate you, I love you, I LIKE YOU, A LOT, THANK YOU, THANK YOU FOR BEING MY PARTNER, MY GIRLFRIEND <333333333`;  } else {
+ text = `Para el amor de mi vida:\n\nGracias por llegar a mi vida. En serio, agradezco cada segundo que pasas conmigo. Me haces sentir tan, tan feliz que cada vez que hablo, pienso en ti o juego contigo, sonrío como un tonto, o como yo digo, de forma boba, jajaja. Realmente te valoro, te amo, ME GUSTAS, MUCHÍSIMO, GRACIAS, GRACIAS POR SER MI COMPAÑERA, MI NOVIA <333333333`;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
